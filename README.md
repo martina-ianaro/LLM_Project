@@ -1,6 +1,6 @@
 # Fine-tuning mBART and LLaMa3 for text summarization
 
-These repository contains two jupyter notebooks in which you respectively fine-tune **mBART** and **LLaMa3** to perform the task of text-summarization.
+This repository contains two jupyter notebooks in which the fine-tuning of **mBART** and **LLaMa3** is performed on the task of text-summarization
 
 ## Dataset used
 To perform the fine-tuning the Fanpage dataset was used ([https://huggingface.co/datasets/ARTeLab/fanpage](https://huggingface.co/datasets/ARTeLab/fanpage)), which features an average summary length of 1.96 sentences and 43 85 words. Comprising 84.365 rows, this dataset was divided into training (67,492), validation (8,436), and test sets (8,437)
